@@ -1,0 +1,25 @@
+CREATE DATABASE LOCAMAIS_IMOVEIS 
+
+USE LOCAMAIS_IMOVEIS
+
+BEGIN TRAN 
+
+
+CREATE TABLE Imoveis
+	(
+	Id int NOT NULL PRIMARY KEY,
+	Nome varchar(50) NOT NULL,
+	ValorAluguel varchar(50) NOT NULL,
+	Endereco varchar(50) NOT NULL,
+	Disponibilidade varchar(50) NOT NULL,
+	QtdQuartos int NOT NULL,
+	QtdBanheiros int NOT NULL,
+	InfoAdicionais varchar(50) NULL,
+	NomeLocatario varchar(50) NULL,
+	NumeroLocatario varchar(50) NULL,
+	CpfLocatario varchar(50) NULL
+	)  
+
+	COMMIT
+
+

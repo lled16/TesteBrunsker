@@ -1,0 +1,7 @@
+.tabelaImoveis{
+    width: 100%;
+}
+
+tr{
+    height: 10vh !important;
+}
